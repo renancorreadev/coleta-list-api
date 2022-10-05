@@ -59,7 +59,7 @@ class PointsController {
     const trx = await knex.transaction()
 
     const point = {
-      image: 'image-fake',
+      image: 'https://img.freepik.com/vetores-gratis/trabalhador-de-coleta-de-lixo-limpando-a-lixeira-no-caminhao-homem-carregando-lixo-em-ilustracao-vetorial-plana-de-saco-plastico-servico-municipal-conceito-de-eliminacao-de-residuos_74855-10181.jpg?w=996&t=st=1664944296~exp=1664944896~hmac=c34571e6ab3373fecfdda14586a3f0f6c4d3e788ae6bae3c9064f97f3db09704',
       name,
       email,
       whatsapp,
